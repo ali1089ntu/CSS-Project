@@ -1,0 +1,225 @@
+
+
+#mainnav{
+    background-color: #daac00;
+}
+
+#navbaricon{
+    margin-left: 12%;
+    color: white;
+    font-size: 22px;
+}
+
+.navbarmenu{
+    margin-left: 10%;
+    color: green;
+}
+
+#searchbox{
+    position: relative;
+    right: 60%;
+    border-radius: 0;
+    border: 0px;
+    background-color: #fcc302;
+    border-color: #fcc302;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+
+#searchbox::placeholder{
+    color: white;
+}
+
+#searchbtn{
+    position: relative;
+    right: 65%;
+    border-radius: 0;
+    border: 0px;
+    background-color: #00bec9;
+    background-color: #00bec9;
+    color: white;
+}
+
+#srow{
+    background-color: #fcc302;
+}
+
+.sheading{
+    padding-top: 10%;
+    padding-bottom: 0px;
+    color: white;
+    font-size: larger;
+}
+
+.simage{
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+
+.sbtn1{
+    border: 2px;
+    border-radius: 0;
+    color: white;
+    background-color: #00bec9;
+    border-style: solid;
+    border-color: #00bec9;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+.sbtn2{
+    border: 2px;
+    border-radius: 0;
+    color: white;
+    background-color: #fcc302;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+@media only screen and (max-width:900px) {
+    
+ #searchbox{
+    position: relative;
+    left: 2%;
+    margin-bottom: 5%;
+ } 
+#searchbtn{
+    position: relative;
+    left: 0%;
+    margin-bottom: 5%;
+}
+#navbaricon{
+    position: relative;
+    right: 2%;
+}
+
+#sixthsearchbtn{
+    position: relative;
+    left: 3%;
+}
+
+}
+
+.theading{
+    padding-top: 11%;
+    font-size: larger;
+    padding-bottom: 0px;
+}
+
+.timage{
+    padding-top: 10%;
+    padding-bottom: 13%;
+    width: 600px;
+}
+
+#imagecare{
+    box-shadow: 5px 10px 30px 0px #fcc302;
+}
+
+.tbtn1{
+    border: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #fcc302;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+
+#frow{
+    background-image: url('autumn-leaves-sun-fall-blurred-background_888757-7609.avif');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.fheading{
+    color: white;
+    font-size: larger;
+    padding-top: 10%;
+}
+
+.fiheading{
+    color: black;
+    font-size: 26px;
+    padding-top: 12%;
+    padding-bottom: 8%;
+    margin-top: 9%;
+}
+
+.sia{
+    text-decoration: none;
+}
+
+.siblog{
+    padding-top: 4%;
+    padding-bottom: 15%;
+}
+
+.siborder{
+    border-width: thin;
+    border-color: grey;
+    border-style: solid;
+    border-top: 0px;
+    padding-bottom: 7%;
+    padding-left: 4%;
+    padding-top: 4%;
+    box-shadow: 5px 15px 20px 0px slategray;
+}
+
+.sirow{
+    background-color: black;
+}
+
+.siheading{
+    color: white;
+    font-size: 16px;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.sixthicons{
+    direction: rtl;
+    padding-left: 10px;
+}
+
+#sixthsearchbox{
+    background-color: #daac00;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    right: 20%;
+    left: 5%;
+}
+
+#sixthsearchbtn{
+    border: 0px;
+    border-radius: 0;
+    color: white;
+    background-color: #00bec9;
+    position: relative;
+    right: 10%;
+}
+
+.endingrow{
+    background-color: black;
+}
+
+.endingcol{
+    padding-bottom: 10px;
+    color: gray;
+}
+
+.developrow{
+    background-color: black;
+}
+
+.developcol{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+
